@@ -7,10 +7,11 @@ public class SoftwareEngineer {
     private String Name;
     private String techStack;
 
-    public SoftwareEngineer(String name, String techStack, Integer id) {
+    public SoftwareEngineer(Integer id, String name, String techStack) {
+        this.id = id;
         Name = name;
         this.techStack = techStack;
-        this.id = id;
+
     }
 
     public Integer getId() {
